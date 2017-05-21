@@ -202,3 +202,6 @@ LOG_DIR = '/var/log/graphite'
 # Uncomment the following line for direct access to Django settings such as
 # MIDDLEWARE_CLASSES or APPS
 #from graphite.app_settings import *
+
+DASHBOARD_REQUIRE_AUTHENTICATION = True
+DASHBOARD_REQUIRE_PERMISSIONS = True

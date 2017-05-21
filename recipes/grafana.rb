@@ -14,7 +14,7 @@ docker_container 'grafana' do
     '/var/log/grafana:/var/log/grafana'
   ]
   env [
-    'GF_AUTH_ANONYMOUS_ENABLED=true',
+    'GF_AUTH_ANONYMOUS_ENABLED=false',
     'GF_AUTH_ANONYMOUS_ORG_ROLE=Admin'
   ]
   links ['graphite-statsd']
